@@ -1,0 +1,253 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: linear-gradient(90deg,#D98324,#A40606);
+}
+
+.navli{
+    float: right;
+    padding-top: 23px;
+    list-style-type: none;
+}
+
+.nava{
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.nava:hover{
+    background: SlateBlue;
+    padding: 25px 20px 26px 20px;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 600px){
+    #navbar{
+        height: 50px;
+    }
+
+    .navli{
+        padding-top: 15px;
+    }
+    .nava{
+        font-size: 17px;
+        padding: 0 15px 0 15px;
+    }
+
+    .nava:hover{
+        padding: 15px 15px 15px 15px;
+    }
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle,#000000,#2D3436);
+}
+
+.name{
+    font-size: 65px;
+    text-align:center;
+    color: white;
+}
+
+.work{
+    text-align:center;
+    font-weight: 100;
+    color:orange;
+    padding-top:10px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.work:hover{
+    cursor: default;
+}
+
+.name:hover{
+    cursor: default;
+}
+
+@media all and (max-width:600px){
+    .name{
+        font-size: 35px;
+    }
+
+    .work{
+        font-size: 20px;
+    }
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #4F3466FF;
+}
+
+.projectheader{
+    text-align: center;
+    font-size: 45px;
+    color:white;
+    padding: 100px 0 5px 0;
+    margin: auto;
+    margin-bottom: 25px;
+    max-width: 640px;
+    border-bottom: 2px solid white;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.project-image{
+    width:400px;
+    height:300px;
+    border-radius: 5px;
+}
+
+.projectgrid{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.project-tile{
+    display: inline-block;
+    margin: 15px 10px 15px 10px;
+    padding-bottom: 20px;
+    background-color: #9F6B99FF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.project-title{
+    padding-top: 10px;
+}
+
+.code{
+    color:#9F6B99FF;
+    transition: color 0.3s ease-out;
+}
+
+.project-tile:hover .code{
+    color:rgb(255, 255, 0);
+}
+
+#show-all{
+    display: block;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: #9F6B99FF;
+    transition: background 0.3s ease-out;
+}
+
+#show-all:hover{
+    background-color: orangered;
+}
+
+#show-all:hover > i {
+    transform: translateX(2px);
+}
+  
+#show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+@media all and (max-width:600px){
+    .projectheader{
+        font-size: 30px;
+    }
+
+    .project-image{
+        height:200px;
+        width:250px;
+    }
+
+    .project-tile{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    #show-all{
+        font-size: 15px;
+    }
+}
+
+#contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: slateblue;
+    color:white;
+}
+
+.contact-section-header{
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+}
+
+.paracontact{
+    font-size: 20px;
+}
+
+.contact-links{
+    display:flex;
+}
+
+.contact-details{
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+    transform: translateY(8px);
+}
+
+@media all and (max-width:600px){
+    .contact-section-header{
+        font-size: 30px;
+    }
+
+    .paracontact{
+        font-size: 20px;
+    }
+
+    .contact-details{
+        font-size: 20px
+    }
+}
