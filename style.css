@@ -38,21 +38,17 @@
 
 @media all and (max-width: 600px){
     #navbar{
-        height: 50px;
+        height: 75px;
     }
 
     .navli{
-        font-size: 17px;
-        padding-top: 15px;
+        font-size: 22px;
+        padding-top: 22px;
     }
 
     .nava{
-        font-size: 17px;
-        padding: 0 15px 0 15px;
-    }
-
-    .nava:hover{
-        padding: 15px 15px 15px 15px;
+        font-size: 22px;
+        padding: 0 20px 0 20px;
     }
 }
 
@@ -95,7 +91,7 @@
     }
 
     .work{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -230,7 +226,7 @@
 
 @media all and (max-width:500px){
     .projectheader{
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .project-image{
@@ -242,7 +238,7 @@
         height:200px;
         width:250px;
         padding: 15px 15px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .project-tile .project-desc {
@@ -258,7 +254,7 @@
     }
 
     #show-all{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -309,16 +305,16 @@
 
 @media all and (max-width:600px){
     .contact-section-header{
-        font-size: 25px;
+        font-size: 30px;
         padding: 20px;
     }
 
     .paracontact{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .contact-details{
         padding: 10px;
-        font-size: 20px
+        font-size: 25px
     }
 }
