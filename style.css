@@ -12,6 +12,9 @@
     height: 80px;
     position: fixed;
     background: linear-gradient(90deg,#D98324,#A40606);
+    opacity: 0.95;
+    border-bottom: 2px solid white;
+    z-index: 1;
 }
 
 .navli{
@@ -22,15 +25,14 @@
 
 .nava{
     text-decoration: none;
-    padding: 0 20px 0 20px;
+    padding-right: 50px;
     font-size: 25px;
     color: white;
-    text-shadow: 2px 2px 1px #1f1f1f;
+    text-shadow: 1.5px 1.5px 1px #1f1f1f;
 }
 
 .nava:hover{
-    background: SlateBlue;
-    padding: 25px 20px 26px 20px;
+    color: rgb(232, 247, 16);
     border-radius: 5px;
 }
 
@@ -40,10 +42,12 @@
     }
 
     .navli{
-        padding-top: 12px;
+        font-size: 17px;
+        padding-top: 15px;
     }
+
     .nava{
-        font-size: 20px;
+        font-size: 17px;
         padding: 0 15px 0 15px;
     }
 
@@ -85,7 +89,7 @@
     cursor: default;
 }
 
-@media all and (max-width:600px){
+@media all and (max-width:500px){
     .name{
         font-size: 35px;
     }
@@ -109,7 +113,6 @@
     padding: 100px 0 5px 0;
     margin: auto;
     margin-bottom: 25px;
-    max-width: 640px;
     border-bottom: 2px solid white;
     text-shadow: 2px 2px 1px #1f1f1f;
 }
@@ -117,6 +120,7 @@
 .project-image{
     width:400px;
     height:300px;
+    border: 2px solid white;
     border-radius: 5px;
 }
 
@@ -128,27 +132,71 @@
 
 .project-tile{
     display: inline-block;
-    margin: 15px 10px 15px 10px;
-    padding-bottom: 20px;
-    background-color: #9F6B99FF;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    font-size: 25px;
+    cursor: pointer;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.project-tile .project-desc {
+    background-color: #6f54af;
+    border: 2px solid rgb(73, 49, 95);
+    position: absolute;
+    top: 0;
+    left: 0;
     color: white;
-    text-decoration: none;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    padding: 111px 20px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px #1f1f1f;
 }
 
-.project-title{
-    padding-top: 10px;
+.project-tile:hover .project-desc {
+    opacity: 0.9;
 }
 
-.code{
-    color:#9F6B99FF;
-    transition: color 0.3s ease-out;
+.project-tile .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
 }
 
-.project-tile:hover .code{
-    color:rgb(255, 255, 0);
+.project-tile:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-tile .project {
+    font-size: 20px;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+
+#project-title{
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-size: 30px;
+}
+
+.project-tile:hover .project,
+.project-tile:focus .project {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
 }
 
 #show-all{
@@ -180,7 +228,7 @@
     transition: transform 0.3s ease-out;
 }
 
-@media all and (max-width:600px){
+@media all and (max-width:500px){
     .projectheader{
         font-size: 30px;
     }
@@ -191,8 +239,22 @@
     }
 
     .project-tile{
-        padding-bottom: 15px;
+        height:200px;
+        width:250px;
+        padding: 15px 15px;
         font-size: 20px;
+    }
+
+    .project-tile .project-desc {
+        padding: 50px 10px;
+    }
+
+    #project-title{
+        font-size: 22px;
+    }
+
+    .project-tile .project {
+        font-size: 18px
     }
 
     #show-all{
@@ -218,13 +280,20 @@
 
 .paracontact{
     font-size: 20px;
+    text-shadow: 1.5px 1.5px 1px #1f1f1f;
+}
+
+.contact-section-header:hover{
+    cursor: default;
 }
 
 .contact-links{
-    display:flex;
+    display:block;
+    text-align: center;
 }
 
 .contact-details{
+    display:inline-block;
     padding: 20px;
     font-size: 30px;
     margin-bottom: 30px;
@@ -240,14 +309,16 @@
 
 @media all and (max-width:600px){
     .contact-section-header{
-        font-size: 30px;
+        font-size: 25px;
+        padding: 20px;
     }
 
     .paracontact{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contact-details{
+        padding: 10px;
         font-size: 20px
     }
 }
