@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+        <meta name="viewport" content="width=1100px, maximum-scale=1.0" />
     </head>
     <body>
         <nav id="navbar">
@@ -9,90 +10,86 @@
                 <li class="navli">
                     <a class="nava" href="#welcome-section">About</a>
                     <a class="nava" href="#projects">Work</a>
-                    <a class="nava" href="#contacts">Contacts</a>
+                    <a class="nava" href="#contacts">Contact</a>
                 </li>
             </ul>
         </nav>
 
-        <sectiom id="welcome-section" class="welcome">
-            <h1 class="name">Hey I am Ayush Pradhan</h1>
-            <p class="work">a computer science student</p>
+        <sectiom id="welcome-section">
+            <div>
+                <img src="images/3Dfigure.gif" alt="3D figure" class="gif">
+            </div>
+            <h3 class="hey">Hey, my name is</h3>
+            <h1 class="name">Ayush Pradhan.</h1>
+            <h1 class="hobby">Tech-enthusiast sophomore.</h1>
+            <p class="work">I am an undergrad student living in Gujarat, India. Pursuing B.Tech in Computer Science from Vellore Institue of Technology.</p>
         </sectiom>
 
         <section id="projects">
             <h2 class="projectheader">Some of my projects</h2>
-            <div class="projectgrid">
-                <a 
-                href="https://github.com/git-ayush-pradhan/Tribute-Web-Page/"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/tribute-page.jpg" alt="Tribute Page"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< Tribute Page /></p>
-                    <br>
-                    <p class="project text">Web page made using HTML and CSS for a tribute to Cristiano Ronaldo.</p>
+            <div>
+
+                <div>
+                    <img class="project-image1" id="project-image" src="images/tribute-page.jpg" alt="Tribute Page"/>
+                    <div class="project-desc1" id="project-desc">
+                        <p id="project-title">Tribute Page</p>
+                        <br>
+                        <p id="project-text">Web page made using HTML and CSS for a tribute to Cristiano Ronaldo.</p>
+                        <a href="Tribute/tribute.html" id="website" target="_blank">
+                            View Website <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/git-ayush-pradhan/Tribute-Web-Page/" id="source" target="_blank">
+                            Source Code <i class="fab fa-github"></i></a>
                     </div>
-                </a>
+                </div>
 
-                <a 
-                href="https://github.com/git-ayush-pradhan/Product-Landing-Web-Page"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/product-landing.jpg" alt="Product Landing Page"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< Product Landing Page /></p>
-                    <br>
-                    <p class="project text">Responsive product landing web page similiar to Amazon's home page.</p>
+                <div>
+                    <img class="project-image2" id="project-image" src="images/product-landing.jpg" alt="Product Landing Page"/>
+                    <div class="project-desc2" id="project-desc">
+                        <p id="project-title">Product Landing Page</p>
+                        <br>
+                        <p id="project-text">Responsive product landing web page similiar to Amazon's home page.</p>
+                        <a href="Product-Landing/product.html" id="website" target="_blank">
+                            View Website <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/git-ayush-pradhan/Product-Landing-Web-Page" id="source" target="_blank">
+                            Source Code <i class="fab fa-github"></i></a>
                     </div>
-                </a>
+                </div>
 
-                <a 
-                href="https://github.com/git-ayush-pradhan/Survey-Web-Page"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/survey-page.jpg" alt="Survey Page"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< Survey Page /></p>
-                    <br>
-                    <p class="project text">Web page made with HTML and CSS for survey of products in bakery.</p>
+                <div>
+                    <img class="project-image3" id="project-image" src="images/calculator.jpg" alt="JavaScript Calculator"/>
+                    <div class="project-desc3" id="project-desc">
+                        <p id="project-title">JavaScript Calculator</p>
+                        <br>
+                        <p id="project-text">Simple mathematical calculator based on HTML, CSS and JavaScript.</p>
+                        <a href="Calculator/index.html" id="website" target="_blank">
+                            View Website <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/git-ayush-pradhan/calculator" id="source" target="_blank">
+                            Source Code <i class="fab fa-github"></i></a>
                     </div>
-                </a>
-
-                <a 
-                href="https://github.com/git-ayush-pradhan/appProfiler"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/appProfiler.jpg" alt="Application Profile Launcher"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< appProfiler /></p>
-                    <br>
-                    <p class="project text">Application profiles storing bundled application to launched altogether.</p> 
                 </div>
-                </a>
 
-                <a 
-                href="https://github.com/git-ayush-pradhan/calculator"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/calculator.jpg" alt="JavaScript Calculator"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< JavaScript Calculator /></p>
-                    <br>
-                    <p class="project text">Simple mathematical calculator based on HTML, CSS and JavaScript.</p>
+                <div>
+                    <img class="project-image4" id="project-image" src="images/appProfiler.jpg" alt="Application Profile Launcher"/>
+                    <div class="project-desc4" id="project-desc">
+                        <p id="project-title">appProfiler</p>
+                        <br>
+                        <p id="project-text">Application profiles storing bundled application to launched altogether.</p> 
+                        <a href="https://github.com/git-ayush-pradhan/appProfiler" id="source" target="_blank">
+                            Source Code <i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-                </a>
 
-            <a 
-                href="https://github.com/git-ayush-pradhan/windows-file-sorter"
-                target="_blank"
-                class="project-tile">
-                    <img class="project-image" src="images/fileSorter.jpg" alt="Windows File Sorter"/>
-                    <div class="project-desc">
-                    <p class="project text" id="project-title">< Window's File Sorter /></p>
-                    <br>
-                    <p class="project text">Window's file sorter application helps to sort files based on their extension.</p>
+                <div>
+                    <img class="project-image5" id="project-image" src="images/fileSorter.jpg" alt="Windows File Sorter"/>
+                    <div class="project-desc5" id="project-desc">
+                        <p id="project-title">Window's File Sorter</p>
+                        <br>
+                        <p id="project-text">Window's file sorter application helps to sort files based on their extension.</p>
+                        <a href="https://github.com/git-ayush-pradhan/windows_file_sorter" id="source" target="_blank">
+                            Source Code <i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-                </a>
+
             </div>
 
             <a
