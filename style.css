@@ -136,9 +136,9 @@ body{
     }
 
     .work{
-        font-size: 37px;
-        margin-left: 5%;
-        margin-right: 5%;
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 10%;
         z-index: 1;
     }
 
@@ -327,10 +327,6 @@ body{
         font-size: 50px;
     }
 
-    #project-title{
-        font-size: px;
-    }
-
     #project-text{
         font-size: 27px;
     }
@@ -437,13 +433,13 @@ body{
 .contact-links{
     display:block;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .contact-details{
     display:inline-block;
     padding: 20px;
     font-size: 30px;
-    margin-bottom: 30px;
     text-decoration: none;
     color:rgb(202, 202, 202);
     text-shadow: 2px 2px 1px #1f1f1f;
@@ -454,4 +450,10 @@ body{
     transform: translateY(8px);
     color: #45FFCF;
     text-shadow: 1px 1px 1px rgb(44, 160, 131);
+}
+
+@media all and (max-width:850px){
+    .paracontact{
+        font-size: 25px;
+    }
 }
