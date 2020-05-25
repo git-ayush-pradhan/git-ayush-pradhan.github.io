@@ -327,6 +327,9 @@ h2:hover{
 .btn{
     margin: auto;
     text-align: center;
+    font-weight: 500;
+    background-color: rgb(77, 127, 170);
+    color: white;
     height: 35px;
     width: 90px;
     border-radius: 7px;
@@ -334,6 +337,7 @@ h2:hover{
 
 .btn:hover{
     cursor: pointer;
+    background-color: rgb(64, 106, 143);
 }
 
 @media all and (max-width: 850px){
@@ -365,7 +369,7 @@ h2:hover{
 
 #how-id{
     text-align: center;
-    color:#CEDAE6;
+    color:rgb(32, 80, 129);
     font-size: 32px;
     padding: 20px 0 20px 0;
 }
