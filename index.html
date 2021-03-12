@@ -1,140 +1,807 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Ayush Pradhan - Student</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
-    </head>
-    <body>
-        <nav id="navbar">
-            <ul class="nav-list">
-                <li class="navli">
-                    <a class="nava" href="#welcome-section">About</a>
-                    <a class="nava" href="#projects">Work</a>
-                    <a class="nava" href="#contacts">Contact</a>
-                </li>
-            </ul>
-        </nav>
+  <head>
+    <title>Ayush Pradhan - Student</title>
 
-        <sectiom id="welcome-section">
-            <div>
-                <img src="images/3Dfigure.gif" alt="3D figure" class="gif">
-            </div>
-            <h3 class="hey">Hey, my name is</h3>
-            <h1 class="name">Ayush Pradhan.</h1>
-            <h1 class="hobby">Tech-enthusiast</h1>
-            <p class="work">I am an undergrad student living in Gujarat, India. Pursuing B.Tech in Computer Science from Vellore Institue of Technology.</p>
-        </sectiom>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="mdb/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mdb/css/mdb.min.css" />
+    <link rel="stylesheet" href="mdb/css/addons/datatables.min.css" />
+    <link rel="stylesheet" href="mdb/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+      formbutton("create", {action: "https://formspree.io/f/mgeppwnj"})
+    </script> -->
+  </head>
 
-        <section id="projects">
-            <h2 class="projectheader">Some of my projects</h2>
-            <div>
+  <body>
+    <script type="text/javascript" src="mdb/js/jquery.min.js"></script>
+    <script type="text/javascript" src="mdb/js/popper.min.js"></script>
+    <script type="text/javascript" src="mdb/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+    <script src="mdb/js/addons/datatables.min.js"></script>
 
-                <div>
-                    <img class="project-image1" id="project-image" 
-                        src="https://github.com/AyushPradhan9/calculator/blob/master/Screenshot/calculator.jpg?raw=true" 
-                        alt="JavaScript Calculator"/>
-                    <div class="project-desc1" id="project-desc">
-                        <p id="project-title">JavaScript Calculator</p>
-                        <br>
-                        <p id="project-text">Simple mathematical calculator based on HTML, CSS and JavaScript.</p>
-                        <a href="https://ayushpradhan9.github.io/calculator/" 
-                            id="website" target="_blank">
-                            View Website <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/AyushPradhan9/calculator" id="source" target="_blank">
-                            Source Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-
-                <div>
-                    <img class="project-image2" id="project-image" 
-                        src="https://raw.githubusercontent.com/AyushPradhan9/Product-Landing-Web-Page/master/img/screenshots/Product-landing1.jpg" 
-                        alt="Product Landing Page"/>
-                    <div class="project-desc2" id="project-desc">
-                        <p id="project-title">Product Landing Page</p>
-                        <br>
-                        <p id="project-text">Responsive product landing web page similiar to Amazon's home page.</p>
-                        <a href="https://ayushpradhan9.github.io/Product-Landing-Web-Page/" 
-                            id="website" target="_blank">
-                            View Website <i class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/AyushPradhan9/Product-Landing-Web-Page" id="source" target="_blank">
-                            Source Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-
-                <div>
-                    <img class="project-image3" id="project-image" src="images/ILS-ReD.jpg" alt="Tribute Page"/>
-                    <div class="project-desc3" id="project-desc">
-                        <p id="project-title">ILS-ReD</p>
-                        <br>
-                        <p id="project-text">Group project on library management system using Java and MySQL</p>
-                        <a href="https://github.com/AyushPradhan9/Integrated-Library-Management-System" 
-                            id="source" target="_blank">
-                            Source Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-
-                <div>
-                    <img class="project-image4" id="project-image" src="images/appProfiler.jpg" alt="Application Profile Launcher"/>
-                    <div class="project-desc4" id="project-desc">
-                        <p id="project-title">appProfiler</p>
-                        <br>
-                        <p id="project-text">Application profiles storing bundled application to launched altogether.</p> 
-                        <a href="https://github.com/AyushPradhan9/appProfiler" id="source" target="_blank">
-                            Source Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-
-                <div>
-                    <img class="project-image5" id="project-image" src="images/fileSorter.jpg" alt="Windows File Sorter"/>
-                    <div class="project-desc5" id="project-desc">
-                        <p id="project-title">Window's File Sorter</p>
-                        <br>
-                        <p id="project-text">Window's file sorter application helps to sort files based on their extension.</p>
-                        <a href="https://github.com/AyushPradhan9/winFileSorter" id="source" target="_blank">
-                            Source Code <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <a
-            href="https://github.com/AyushPradhan9?tab=repositories"
-            id="show-all"
-            class="btn btn-show-all"
-            target="_blank">Show all<i class="fas fa-chevron-right"></i></a>
-        
-        </section>
-
-        <section id="contacts">
-            <div class="contact-section-header">
-                <h2>Let's work together...</h2>
-                <p class="paracontact">How about starting with a hey?</p>
-            </div>
-            <div class="contact-links">
-                <a
-                    id="profile-link"
-                    href="https://www.instagram.com/_ayush.pradhan_/"
-                    target="_blank"
-                    class="contact-details">
-                    <i class="fab fa-instagram"></i> Instagram</a>
-
-                <a
-                    href="https://www.linkedin.com/in/ayushpradhan/"
-                    target="_blank"
-                    class="contact-details">
-                    <i class="fab fa-linkedin-in"></i> LinkedIn</a>
-
-                <a
-                    id="profile-link"
-                    href="https://github.com/AyushPradhan9"
-                    target="_blank"
-                    class="contact-details">
-                    <i class="fab fa-github"></i> GitHub</a>
-
-                <a href="mailto:ayushpradhan0209@gmail.com" class="contact-details"><i class="fas fa-at"></i> Send a mail</a>
+    <header>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+              <a class="navbar-brand" href="#"><b>Ayush Pradhan</b></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sections" aria-controls="sections" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="sections">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1 ml-1">
+                      <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item mr-1 ml-1">
+                      <a class="nav-link" href="#Skills">Skills</a>
+                  </li>
+                  <li class="nav-item mr-1 ml-1">
+                      <a class="nav-link" href="#Projects">Projects</a>
+                  </li>
+                  <li class="nav-item mr-1 ml-1">
+                      <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                  </ul>
               </div>
-        </section>
-    </body>
+          </nav>
+        </nav>
+      
+    </header>
+
+    <div class="view">
+      <video class="video-fluid" autoplay loop muted>
+        <source src="cover/cover.mp4" type="video/mp4" />
+      </video>
+
+      <div class="mask pattern-5 d-flex justify-content-center align-items-center">
+        <div class="container px-md-3 px-sm-0">
+            <div class="row wow fadeIn">
+                <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+                    <h4 class="display-4 font-weight-bold white-text mb-0">Hi I'm Ayush Pradhan</h4>
+                    <hr class="hr-light my-4 w-75">
+                    <h4 class="subtext-header mt-2 mb-4 ml-2 mr-2">A computer science student curious about technology.</h4>
+                    <a href="#Projects" class="btn btn-rounded btn-outline-white">
+                        My Work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section id="About" class="rgba-grey-slight">
+      <div class="container main-cont">
+        <h1 class="heading font-weight-bold">About<hr class="underline"></h1>
+        <div class="row">
+          <div id="about-image" class="col-lg-3 m-3 text-center col-sm-12">
+            <img src="images/me3.jpg" class="img rounded-circle abtimg"/>
+          </div>
+          <div id="about-text" class="col-lg-8 m-3 col-sm-12">
+            <p class="text-center text-sm-left">
+              Hey, It's me! I am pursuing BTech in Computer Science at Vellore Institute of Technology, Bhopal. I currently reside at Jamnagar, Gujarat.
+            </p>
+            <p class="text-center text-sm-left">
+              I like building productive and helpful softwares for people. I've have designed and built management, chatting and utility softwares as well as some interesting websites! 
+            </p>
+            <div class="container-fluid">
+              <div class="row">
+                      <div class="col-3">
+                      <button type="button" class="btn btn-default btn-circle btn-lg">
+                        <a
+                        href="https://www.linkedin.com/in/ayushpradhan/"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in text-white"></i></a>
+                      </button>
+                    </div>
+        
+                      <div class="col-3">
+                      <button type="button" class="btn btn-orange btn-circle btn-lg">
+                        <a
+                        href="https://www.instagram.com/_ayush.pradhan_/"
+                        target="_blank">
+                        <i class="fab fa-instagram text-white"></i></a>
+                      </button>
+                    </div>
+          
+                      <div class="col-3">
+                      <button type="button" class="btn btn-black btn-circle btn-lg">
+                        <a
+                        href="https://github.com/AyushPradhan9"
+                        target="_blank">
+                        <i class="fab fa-github text-white"></i></a>
+                      </button>
+                    </div>
+                      
+                      <div class="col-3">
+                      <button type="button" class="btn btn-info btn-circle btn-lg">
+                        <a
+                        href="mailto:ayushpradhan0209@gmail.com"
+                        target="_blank">
+                        <i class="fas fa-at text-white"></i></a>
+                      </button>
+                    </div>
+                  </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="Skills">
+        <div class="container main-cont">
+          <h1 class="heading font-weight-bold">Skills<hr class="underline"></h1>
+          <div class="row">
+            <div class="col-12 skill-text">
+              <p  class="text-center">I've worked with variety of programming languages and built many fully-fledged projects from basic scripting programs to a Group chatting application with DBMS support. 
+                 I have an obsession for brainstorming in online coding competitions held on various platforms.
+                  I have achieved a perfect <b> 5 star </b> rating in C, C++, Java and Python on <a href="https://www.hackerrank.com/AyushPradhan" target="_blank"> Hackerrank </a> and a <b>1680+ rating(3 star)</b> on <a href="https://www.codechef.com/users/ayush_pradhan" target="_blank"> Codechef</a>. </p>
+              <h4 class="text-center p-2">Some of my proficient programming skills include:</h4>
+            </div>
+            <div class="container">
+              <div class="row p-3 text-center">
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>C / C++(STL)</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Data Structures</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>HTML</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>CSS / Bootstrap</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Java</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Python</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Javascript</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Git</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>MySQL</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>Android</h5>
+                </div>
+                <div class="pt-2 col-lg-3 col-sm-4 col-xs-12"> 
+                  <h5>XML</h5>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="Projects" class="rgba-grey-slight">
+      <div class="container text-center main-cont">
+        <h1 class="heading font-weight-bold">Projects<hr class="underline"></h1>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="images/ILS-ReD.jpg"
+                  alt="Library management system"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".lms"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+
+              <div
+                class="modal fade lms"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="lms"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">ILS-ReD</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="images/ILS-ReD.jpg"
+                          alt="Library management system"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        Integrated library system with relational database
+                        (ILS-ReD) is a <b>Java Group project</b> for our
+                        college. The project has a user-friendly interface and
+                        better efficiency with integrated <b>MySQL</b> database.
+                        The whole project is mainly divided into
+                        <b>Admin Section</b>, <b>Library Section</b> and
+                        <b>Student section</b>.
+                      </p>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                            <a
+                              href="https://www.github.com/ayushpradhan9/Integrated-Library-Management-System"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">ILS-ReD</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Management Software</a>
+                  </div>
+                  <a>Java | MySQL</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="images/reddiTalk.jpg"
+                  alt="reddiTalk"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".chat"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+              <div
+                class="modal fade chat"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="chat"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">reddiTalk</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="images/reddiTalk.jpg"
+                          alt="reddiTalk"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        reddiTalk is a <b>Group chatting application</b> with similarities to <b>Reddit's community structure</b> which means it is open to all discussion application with support of chatting with individual users as well. 
+                        It has 2 subdivisions which are <b>Server interface</b> containing API calls for the client and 
+                        database for user data and the <b>Client interface</b> which will offer the functionalities to user.
+                      </p>
+                      <div class="container m-1">
+                        <div class="row">
+                          <div class="col-12 p-1">
+                            <a
+                              href="https://github.com/ayushpradhan9/reddiTalk/"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">reddiTalk</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Group Chatting Software</a>
+                  </div>
+                  <a class="text-grey">Java | MySQL | Socket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="https://github.com/AyushPradhan9/Product-Landing-Web-Page/blob/master/img/screenshots/Product-landing1.jpg?raw=true"
+                  alt="Product Landing Page"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".amz"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+
+              <div
+                class="modal fade amz"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="amz"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">aSmile</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="https://github.com/AyushPradhan9/Product-Landing-Web-Page/blob/master/img/screenshots/Product-landing1.jpg?raw=true"
+                          alt="Product Landing Page"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        A UI based responsive website made for <b>Product landing page</b> similiar to Amazon's home page. 
+                        This website was made using <b>HTML</b>, <b>CSS</b> and <b>Bootstrap</b>.
+                      </p>
+                      <div class="container m-1">
+                        <div class="row">
+                          <div class="col-6">
+                            <a
+                              href="https://ayushpradhan9.github.io/Product-Landing-Web-Page/"
+                              id="website"
+                              target="_blank"
+                            >
+                              View Website
+                              <i class="fas fa-external-link-alt"></i
+                            ></a>
+                          </div>
+                          <div class="col-6">
+                            <a
+                              href="https://github.com/AyushPradhan9/Product-Landing-Web-Page"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">aSmile</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Product Landing Page</a>
+                  </div>
+                  <a class="text-grey">HTML | CSS | Bootstrap</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="images/PortfolioV1.jpg"
+                  alt="Portfolio"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".port"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+              <div
+                class="modal fade port"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="port"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">Portfolio V1</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="images/PortfolioV1.jpg"
+                          alt="Portfolio"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        The very first iteration of responsive <b>Technical portfolio website</b> which was made purely using <b>HTML</b> and <b>CSS</b>. 
+                        It still contains a brief about myself, projects I have worked on and sites where you can find me!
+                      </p>
+                      <div class="container m-1">
+                        <div class="row">
+                          <div class="col-6">
+                            <a
+                              href="https://ayushpradhan9.github.io/PortfolioV1/index.html"
+                              id="website"
+                              target="_blank"
+                            >
+                              View Website
+                              <i class="fas fa-external-link-alt"></i
+                            ></a>
+                          </div>
+                          <div class="col-6">
+                            <a
+                              href="https://github.com/AyushPradhan9/PortfolioV1"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">Portfolio V1</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Personal Porfolio</a>
+                  </div>
+                  <a class="text-grey">HTML | CSS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="images/appProfiler.jpg"
+                  alt="Application Profile Launcher"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".aps"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+              <div
+                class="modal fade aps"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="aps"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">appProfiler</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="images/appProfiler.jpg"
+                          alt="Application Profile Launcher"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        Application Profile Launcher (appProfiler) is developed
+                        with <b>Python (GUI/Tkinter)</b> to make profiles of
+                        daily routine's applications to be launched with a
+                        single click. For example while working on project
+                        daily, requires IDE, browser and a word file, with the
+                        appProfiler all that can be launched with a single
+                        click!
+                      </p>
+                      <div class="container m-1">
+                        <div class="row">
+                          <div class="col-12">
+                            <a
+                              href="https://github.com/AyushPradhan9/appProfiler"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body" id="project-desc">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">appProfiler</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Utility Software</a>
+                  </div>
+                  <a class="text-grey">Python</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-12 p-4">
+            <div class="card">
+              <div class="view overlay">
+                <img
+                  class="img-fluid"
+                  src="images/fileSorter.jpg"
+                  alt="Window's File Sorter"
+                />
+                <div
+                  class="mask flex-center deep-blue-gradient"
+                  data-toggle="modal"
+                  data-target=".sort"
+                >
+                  <h2 class="text-white">Details</h2>
+                </div>
+              </div>
+              <div
+                class="modal fade sort"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="lms"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title text-center">winFileSorter</h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">×</span>
+                      </button>
+                    </div>
+                    <div class="modal-body m-auto">
+                      <div class="view text-center">
+                        <img
+                          class="rounded mx-auto d-block inner-img"
+                          src="images/fileSorter.jpg"
+                          alt="Window's File Sorter"
+                        />
+                      </div>
+                      <hr />
+                      <p>
+                        Window's File Sorter (winFileSorter) is a
+                        <b>Python (GUI/Tkinter)</b> program for sorting files
+                        based on their extension into appropriate folders. It is
+                        divided into two types of sorting -
+                        <b>Dynamic and Static sorting</b> and generates a
+                        listFiles.txt file to give an overview of the sorted
+                        files.
+                      </p>
+
+                      <div class="container m-1">
+                        <div class="row">
+                          <div class="col-12">
+                            <a
+                              href="https://github.com/git-ayush-pradhan/winFileSorter"
+                              id="source"
+                              target="_blank"
+                            >
+                              Source Code <i class="fab fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body" id="project-desc">
+                <div class="card-text">
+                  <h2 class="card-title text-dark">winFileSorter</h2>
+                  <hr />
+                  <div class="column project-desc">
+                    <a class="text-dark">Utility Software</a>
+                  </div>
+                  <a class="text-grey">Python</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="https://github.com/AyushPradhan9?tab=repositories"
+          id="show-all"
+          class="btn rounded btn-show-all"
+          target="_blank"
+          >View all<i class="fas fa-chevron-right"></i
+        ></a>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="Contact" class="py-5">
+
+      <div class="container main-cont">
+
+          <h1 class="heading font-weight-bold">Contact<hr class="underline"></h2>
+
+          <h4 class="text-center w-responsive mx-auto">Feel free to contact me. Cheers!</h4>
+          
+          <div class="row">
+
+              <div class="col-md-12 mb-md-0 mb-5">
+
+                <form action="https://formspree.io/f/mgeppwnj" method="POST">
+
+                  <div class="row">
+
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                      <input type="text" name="name" class="form-control">
+                      <label for="contact-name" class="">Your name</label>
+                      </div>
+                  </div>
+         
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                      <input type="email" name="_replyto" class="form-control">
+                      <label for="contact-email" class="">Your email</label>
+                      </div>
+                  </div>
+
+                  </div>
+
+                  <div class="row">
+
+                  <div class="col-md-12">
+                      <div class="md-form">
+                      <textarea type="text" name="message" class="form-control md-textarea" rows="3"></textarea>
+                      <label for="contact-message">Your message</label>
+                      </div>
+                  </div>
+
+                  </div>
+
+                  <div class="text-center">
+                    <input class="btn rounded sub-btn" type="submit" value="Send">
+                  </div>
+
+              </form>
+
+              </div>
+
+          </div>
+
+      </div>
+  </section>
+
+  <div class="blnk-clr">
+  </div>
+  
+  </body>
 </html>
